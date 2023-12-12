@@ -2,6 +2,14 @@
 # Find the largest palindrome made from the product of two 3-digit numbers.
 
 def is_palindromic(number):
+    """Checks if a number is palindromic
+
+    Args:
+        number (int): Number that needs to be checked if it's palindromic
+
+    Returns:
+        bool: Returns True if it's palindromic and False if it's not
+    """
     if str(number) == str(number)[::-1]:
         return True
     else:
